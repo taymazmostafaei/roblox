@@ -1,0 +1,58 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+section {
+    text-align: center;
+}
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 3PX 3PX 5PX,-3PX -3PX 5PX;
+    
+}
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px rgb(10, 10, 10);
+    border: 1px solid rgb(54, 52, 52);
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+.game-restart{
+width: 100px;
+height: 30px;
+background-color:rgb(90, 83, 83);
+color: #fff;
+border: 1px solid rgb(241, 233, 233);
+}
+.game-restart:focus{
+outline:none ;
+}
+.game-restart:hover{
+    background-color: darkgray;
+}
+::selection{
+    background-color: rgb(189, 187, 187);
+}
+.l1{
+background-color: darkgrey;
+}
+.Clean{
+    width: 100px;
+height: 30px;
+background-color:rgb(90, 83, 83);
+color: #fff;
+border: 1px solid rgb(241, 233, 233);
+}
+.Clean:focus{
+    outline:none ;
+}
+.Clean:hover{
+     background-color: darkgray;
+}
