@@ -21,15 +21,17 @@ $(document).ready(function(){
     });
 
     function change_color(one,two,three) { 
-        $(one+" .cell").css("background-color", "darkgrey");
-        $(two+" .cell").css("background-color", "darkgrey");
-        $(three+" .cell").css("background-color", "darkgrey");
+        $(one+" .cell").css("background-color", "#ff006e");
+        $(two+" .cell").css("background-color", "#ff006e");
+        $(three+" .cell").css("background-color", "#ff006e");
         setTimeout(function(){
             $(one+" .cell").css("background-color", "");
             $(two+" .cell").css("background-color", "");
             $(three+" .cell").css("background-color", "");
             $(".cell").html(null);
+            alert("The winner has been determined 🎉🥳")
         }, 1500);
+        
      }
 
      function put_score(val) { 
